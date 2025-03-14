@@ -1,0 +1,45 @@
+*::-webkit-scrollbar{
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+*::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.nav{
+  display: flex;
+  flex-direction: column;
+}
+.fonts{
+  font-size: clamp(2px, 1vw + 1rem, 15px);
+}
+.styles{
+  border-top-left-radius: 100%;
+  border-bottom-left-radius: 100%;
+}
+.signin-bg{
+  background-image: url(./Images/signin-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.signup-bg{
+  background-image: url("./Images/signup-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sub-nav{
+  position: fixed !important;
+  top: 5%;
+  right: 0;
+}
+.button{
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+}
